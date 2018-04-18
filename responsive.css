@@ -1,0 +1,86 @@
+.body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 375px) {
+	.header__logo {
+		width: 42px;
+		margin: 6px;
+	}
+	.header__title {
+		font-size: 38px;
+	}
+
+	.header__subheading {
+		font-size: 18px;
+	}
+	.first__project, .second__project, .third__project {
+		width: 80%;
+		margin-right: 10%;
+		margin-left:10%;
+		margin-top: 5%;
+		}
+	.featured__title {
+		font-size: 32px;
+		margin-bottom: 10px;
+	}
+	.first__title, .second__title, .third__title {
+		font-size: 26px;
+	}
+	.first__hyperlink, .second__hyperlink, .third__hyperlink {
+		font-size: 18px;  
+	}
+}
+
+@media screen and (min-width: 550px) {
+ 	.header__logo {
+		width: 58px;
+		margin: 10px;
+	}
+	.header__title {
+		font-size: 48px;
+	}
+	.header__subheading {
+		font-size: 22px;
+	}
+	.first__project, .second__project, .third__project {
+		width: 50%;
+		margin-right: 22.5%;
+		margin-left:22.5%;
+		margin-top: 5%;
+	}
+}
+
+@media screen and (min-width: 850px) {
+	.header {
+		border-bottom: 6px solid #95A5A6;
+	}
+	.header__logo {
+		width: 65px;
+	}
+	.header__subheading {
+		margin-bottom: 12px;
+	}
+	.content {
+		margin-top: 20px;
+	}
+	.featured__title {
+	margin-bottom: 20px;
+	}
+	.first__project, .second__project, .third__project {
+		width: 31.56%;
+		margin: 0px;
+	}
+	.first__project, .second__project {
+		margin-right: 2%;
+	}
+}
+
+@media screen and (min-width: 1040px) {
+	body {
+		width: 850px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

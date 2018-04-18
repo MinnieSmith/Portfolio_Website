@@ -1,0 +1,74 @@
+html {
+  margin: 0px;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+} 
+
+body {
+	font-family: Montserrat;
+	margin: 10%;
+	height: 100%;
+}
+
+div {
+	box-sizing: border-box;
+	display: inline-grid;
+}	
+
+.header {
+	color: #34495E;
+	border-bottom: 5px solid #95A5A6;
+}
+
+.header__logo {
+	width: 30px;
+	float: left;
+	margin: 4px;
+}
+
+
+.header__title {
+	font-weight: 200;
+	font-size: 28px;
+	text-align: right;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.header__subheading {
+	font-weight: 100;
+	font-size: 14px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+.content {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.featured__title {
+	font-weight: 150;
+	font-size: 25px;
+	color: #D35400;
+	margin-bottom: 0px;
+}
+
+.first__project, .second__project, .third__project {
+	width: 90%;
+	margin: 5%;
+}
+
+.first__title, .second__title, .third__title {
+	font-size: 20px;
+	color: #512E5F;
+	text-align: center;
+}
+
+.first__hyperlink, .second__hyperlink, .third__hyperlink {
+	font-size: 14px;
+	color: #34495E;
+	text-align: center;
+}
